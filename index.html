@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>crud</title>
+</head>
+<body>
+    <section class=" flex flex-col gap-4 justify-start py-5 max-w-[1440px] mx-auto items-center">
+        <form   class="form flex border flex-col gap-4 bg-gray-300  p-3 w-[300px] h-[150px] rounded-md">
+            <input name="name" type="text" class="inputs outline-none w-full px-2 py-1 rounded-md" placeholder="Enter your First Name">
+            <input name="hobby" type="text" class=" inputs outline-none w-full px-2 py-1 rounded-md" placeholder="Enter your Last Name">
+            <button type="submit" id="btn" class="py-1 px-3 bg-blue-500 text-white rounded-md font-medium">Send</button>
+        </form>
+        <div class="box"></div>
+    </section>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
